@@ -1,16 +1,18 @@
 import 'professor.dart';
 import 'Atividade.dart';
 import 'aluno.dart';
+import 'Atividade.dart';
+
 
 class Disciplina {
   Professor professor;
-  Atividade atividade;
-  List <Aluno> alunos;
+  List<Aluno> alunos;
+  List<Atividade> atividades;
 
-  Disciplina(this.professor,this.atividade, this.alunos);
+  Disciplina(this.professor, this.alunos, this.atividades);
 
-  void ranking() {
-    
+  void ranking(){
+
   }
 
 }
